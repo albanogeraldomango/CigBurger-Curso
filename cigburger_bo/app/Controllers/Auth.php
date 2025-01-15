@@ -9,6 +9,10 @@ class Auth extends BaseController
 {
     public function index()
     {
-        echo 'Auth controller';
+        return view('Auth/login_frm');
+    }
+    public function teste()
+    {
+        return view('teste');
     }
 }
